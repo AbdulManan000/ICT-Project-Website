@@ -527,22 +527,22 @@ const products = [
         main_image: "images/id=3307.jpg", 
         
 },
-{
-     id: 3308,
-        title: "Hungry eyes",
-        price: " Rs 250000000",
-        description: "Not much to say pridemonth special.",
-        main_image: "images/id=3308.jpg", 
+// {
+//      id: 3308,
+//         title: "Hungry eyes",
+//         price: " Rs 250000000",
+//         description: "Not much to say pridemonth special.",
+//         main_image: "images/id=3308.jpg", 
         
-},
-{
-     id: 3309,
-        title: "Sleepy Bear",
-        price: " Rs 250000000",
-        description: "A story of puki bear named bilal.",
-        main_image: "images/id=3309.jpg", 
+// },
+// {
+//      id: 3309,
+//         title: "Sleepy Bear",
+//         price: " Rs 250000000",
+//         description: "A story of puki bear named bilal.",
+//         main_image: "images/id=3309.jpg", 
         
-}
+// }
 ]    
 
 

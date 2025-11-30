@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="project_style.css">
+</head>
+<body>
+    
+   <header class="main-header">  <!--Header Yahan sa ShORO HO raha hai-->
+    <div class="logo">Game Zone Hub</div>
+
+    <nav class="navbar">
+        <a href="project.html" class="nav-link">Home</a>
+ <div class="dropdown">
+    <button class="dropbtn">Shop ▼</button>
+    <div class="dropdown-content">
+
+        <!--Console ki Category-->
+        <div class="sub-dropdown">
+            <a href="console.html">Consoles ▼</a>
+            <div class="sub-dropdown-content">
+                <a href="console.html#c.xbox">Xbox</a>
+                <a href="console.html#c.playstation">Play Station</a>
+            </div>
+        </div>
+
+        <!-- Accessories ki category -->
+        <div class="sub-dropdown">
+            <a href="Accessories.html">Accessories ▼</a>
+            <div class="sub-dropdown-content">
+                <a href="Accessories.html#controllersSection">Controllers</a>
+                <a href="Accessories.html#gripsSection">Hand Grips</a>
+                <a href="Accessories.html#headsetsSection">Head Sets</a>
+                <a href="Accessories.html#gpusSection">GPUs</a>
+            </div>
+        </div>
+
+        <!-- Games ki category -->
+        <div class="sub-dropdown">
+            <a href="games.html">Games ▼</a>
+            <div class="sub-dropdown-content">
+                <a href="games.html#playStationGamesSection">Play Station Games</a>
+                <a href="games.html#xboxGamesSection">Xbox Games</a>
+                <a href="games.html#pcGamesSection">PC Games</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+        
+        <a href="customersupport.html" class="nav-link">Customer Support</a>
+        <a href="cart.html" class="nav-link">🛒</a>
+    </nav>
+
+    <div class="menu-btn">☰</div>
+</header>
+
+<body>
+
+<div id="cart-page">
+
+    <h1>Your Shopping Cart</h1>
+
+    <div id="cart-items"></div>
+
+    <h2 id="total"></h2>
+
+    <button id="checkout-btn">Checkout</button>
+
+    <div id="popup-msg"></div>
+
+</div>
+
+
+<footer class="footer">
+    <div class="footer-left">
+        <h2 class="footer-logo">Game Zone Hub</h2>
+        <p class="footer-about">
+            Welcome to Game Zone Hub — your ultimate destination for premium gaming consoles,
+            accessories, and top-rated video games. We bring the best gaming experience to every player.
+        </p>
+    </div>
+
+    <div class="footer-middle">
+        <h3>Our Products</h3>
+        <ul>
+            <li><a href="console.html">Console</a></li>
+            <li><a href="Accessories.html">Accessories</a></li>
+            <li><a href="Games.html"> Games</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-right">
+        <h3>Customer Support</h3>
+        <ul>
+            <li><a href="customersupport.html">Support Page</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox">E-Mail: support@gamezonehub.com</a></li>
+            <li>Phone: +92 300 1234567</li>
+            <li><a href="https://www.google.com/maps/place/FAST+University+(Chiniot-Faisalabad+Campus)/@31.6012849,73.035988,17z/data=!3m1!4b1!4m6!3m5!1s0x39223f08dbbe5fa5:0xb45ea8924093c29d!8m2!3d31.6012849!4d73.035988!16zL20vMDhmcTN3?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"> Location: Game Zone Hub</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="project_script.js"></script>
+<script src="cart.js"></script>
+
+</body>
+</html>
